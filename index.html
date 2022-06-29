@@ -5,32 +5,161 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Amarante&family=Quicksand:wght@300;400;600;700&family=Unica+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header id="'header">
-        <a></a>
-        <img src="" id="header-img">
+    <header id="header">
+        <div id="header-img-cont">
+            <img src="https://cdn.freelogodesign.org/files/238a27856d2b422e8b74ee9c2c3770d3/thumb/logo_200x200.png?v=637920483580000000" 
+                id="header-img">
+        </div>
         
         <nav id="nav-bar">
-            <a class="nav-link" href="#"></a>
-            <a class="nav-link" href="#"></a>
-            <a class="nav-link" href="#"></a>
+            <ul>
+                <li><a class="nav-link" href="#">Home</a></li>
+                <li><a class="nav-link" href="#about_us">About us</a></li>
+                <li><a class="nav-link" href="#products">Products</a></li>
+                <li><a class="nav-link" href="#">Stores</a></li>
+                <li><a class="nav-link" href="#">Contact</a></li>
+            </ul>
         </nav>
+       
     </header>
 
     <main>
+        <section id="hero">
+            <img src="https://cdn.pixabay.com/photo/2017/11/06/17/04/vegetables-2924239_960_720.jpg" alt="Fresh vegetables in a basket lined 
+                with a blue checkered cloth. On top of it is written: Organic. Always Fresh!" id="basket">
+            <h1>Organic</h1>
+            <p>Always Fresh!</p>
+        </section>
         
-    
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
-        <input type="submit" id="submit" value=""> 
-    </form>
+        <section id="about_us">
+            <h1 class="section_title">About us</h1>
+            <hr class="underline">
+            <div class="icons">
+                <div class="values"></div>
+                <div class="values">
+                    <img src="/broccoli.png">
+                    <label>100% Organic</label>
+                </div>
+                <div class="values">
+                    <img src="/spinach.png">
+                    <label>Natural</label>
+                </div>
+                <div class="values">
+                    <img src="/cabbage.png">
+                    <label>Best Quality</label>
+                </div>
+                <div class="values">
+                    <img src="/asparagus.png">
+                    <label>Wide range</label>
+                </div>
+                <div class="values"></div>
+            </div>
+            <p id="about_text">We are a greengrocer that cares about what you eat. To us, health means providing <span class="key">organic</span>,
+                <span class="key">natural</span> and <span class="key">fresh</span> products that you can trust. We have also been a strong 
+                supporter of <span class="key">farmers</span>, <span class="key">food makers</span> and <span class="key">local organizations</span>
+                 that work toward building <span class="key">healthy</span> and <span class="key">sustainable</span> communities, whether through food, education, health 
+                or environmental initiatives.</p>
+        </section>
+
+        <section id="products">
+            <h1 class="section_title">Products</h1>
+            <hr class="underline">
+
+            <div class="container">
+                <div class="card card0">
+                    <div class="border">
+                        <div class="card_overlay">
+                            <h2>Carrot</h2>
+                            <p>$3.00</p>  
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="card card1">
+                    <div class="border">
+                        <div class="card_overlay">
+                            <h2>Beetroot</h2>
+                            <p>$8.00</p>
+                        </div>   
+                    </div>
+                </div>
+
+                <div class="card card2">
+                    <div class="border">
+                        <div class="card_overlay">
+                            <h2>Pumpkin</h2>
+                            <p>$12.00</p>   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card3">
+                    <div class="border">
+                        <div class="card_overlay">
+                            <h2>Cauliflower</h2>
+                            <p>$7.00</p>   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card4">
+                    <div class="border">
+                        <div class="card_overlay">
+                            <h2>Pineapple</h2>
+                            <p>$10.00</p>   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card5">
+                    <div class="border">
+                        <div class="card_overlay">
+                            <h2>Grapes</h2>
+                            <p>$4.00</p>   
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card card6">
+                    <div class="border">
+                        <div class="card_overlay">
+                            <h2>Rowan Berries</h2>
+                            <p>$14.00</p>   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card7">
+                    <div class="border">
+                        <div class="card_overlay">
+                            <h2>Rowan Berries</h2>
+                            <p>$14.00</p>   
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+   
     <video id="video"></video>
 
     
 </main>
-</body>
 
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <input type="submit" id="submit" value=""> 
+</form>
+</body>
+<a href="https://www.flaticon.com/free-icons/fruit" title="fruit icons">Fruit icons created by Freepik - Flaticon</a>
 </html>

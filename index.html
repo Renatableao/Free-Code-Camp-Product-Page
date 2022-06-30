@@ -7,6 +7,11 @@
     <title></title>
     <link rel="stylesheet" type="text/css" href="/styles.css">
 
+
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"/>
+
+
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,8 +30,8 @@
                 <li><a class="nav-link" href="#">Home</a></li>
                 <li><a class="nav-link" href="#about_us">About us</a></li>
                 <li><a class="nav-link" href="#products">Products</a></li>
-                <li><a class="nav-link" href="#">Stores</a></li>
-                <li><a class="nav-link" href="#">Contact</a></li>
+                <li><a class="nav-link" href="#store">Store</a></li>
+                <li><a class="nav-link" href="#more">More</a></li>
             </ul>
         </nav>
        
@@ -63,12 +68,16 @@
                 </div>
                 <div class="values"></div>
             </div>
-            <p id="about_text">We are a greengrocer that cares about what you eat. To us, health means providing <span class="key">organic</span>,
+            <p class="paragraph">We are a greengrocer that cares about what you eat. To us, health means providing <span class="key">organic</span>,
                 <span class="key">natural</span> and <span class="key">fresh</span> products that you can trust. We have also been a strong 
                 supporter of <span class="key">farmers</span>, <span class="key">food makers</span> and <span class="key">local organizations</span>
                  that work toward building <span class="key">healthy</span> and <span class="key">sustainable</span> communities, whether through food, education, health 
                 or environmental initiatives.</p>
-        </section>
+        
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/hWkYtZxpQUo" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+            </section>
 
         <section id="products">
             <h1 class="section_title">Products</h1>
@@ -78,8 +87,7 @@
                 <div class="card card0">
                     <div class="border">
                         <div class="card_overlay">
-                            <h2>Carrot</h2>
-                            <p>$3.00</p>  
+                            <h2>Carrot</h2>  
                         </div> 
                     </div>
                 </div>
@@ -88,7 +96,6 @@
                     <div class="border">
                         <div class="card_overlay">
                             <h2>Beetroot</h2>
-                            <p>$8.00</p>
                         </div>   
                     </div>
                 </div>
@@ -96,8 +103,7 @@
                 <div class="card card2">
                     <div class="border">
                         <div class="card_overlay">
-                            <h2>Pumpkin</h2>
-                            <p>$12.00</p>   
+                            <h2>Pumpkin</h2>   
                         </div>
                     </div>
                 </div>
@@ -105,8 +111,7 @@
                 <div class="card card3">
                     <div class="border">
                         <div class="card_overlay">
-                            <h2>Cauliflower</h2>
-                            <p>$7.00</p>   
+                            <h2>Cauliflower</h2>  
                         </div>
                     </div>
                 </div>
@@ -114,8 +119,7 @@
                 <div class="card card4">
                     <div class="border">
                         <div class="card_overlay">
-                            <h2>Pineapple</h2>
-                            <p>$10.00</p>   
+                            <h2>Figs</h2> 
                         </div>
                     </div>
                 </div>
@@ -123,18 +127,17 @@
                 <div class="card card5">
                     <div class="border">
                         <div class="card_overlay">
-                            <h2>Grapes</h2>
-                            <p>$4.00</p>   
+                            <h2>Pineapple</h2> 
                         </div>
                     </div>
                 </div>
+
 
 
                 <div class="card card6">
                     <div class="border">
                         <div class="card_overlay">
                             <h2>Rowan Berries</h2>
-                            <p>$14.00</p>   
                         </div>
                     </div>
                 </div>
@@ -142,24 +145,90 @@
                 <div class="card card7">
                     <div class="border">
                         <div class="card_overlay">
-                            <h2>Rowan Berries</h2>
-                            <p>$14.00</p>   
+                            <h2>Orange</h2> 
                         </div>
                     </div>
                 </div>
 
+                <div class="card card8">
+                    <div class="border">
+                        <div class="card_overlay">
+                            <h2>Garlic</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card9">
+                    <div class="border">
+                        <div class="card_overlay">
+                            <h2>Mushroom</h2>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card10">
+                    <div class="border">
+                        <div class="card_overlay">
+                            <h2>Mixed Pepper</h2> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card11">
+                    <div class="border">
+                        <div class="card_overlay">
+                            <h2>Lettuce</h2>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="store">
+            <h1 class="section_title">Store</h1>
+            <hr class="underline">
+            <p class="paragraph">Come visit and shop with us at our location in Loughborough!</p>
+
+            <div id="store_address">
+                <div>
+                <img id="shop" src="https://cdn.pixabay.com/photo/2020/01/08/03/54/market-4749215_960_720.jpg" atl="Two people - a man wearing yellow 
+                    sunglasses and black hat and a woman with her back to the photo - shopping at a greengrocer.">
+                </div>
+                <div id="address">
+                    <h3>67 Main St, East Leake</h3>
+                    <h3>Loughborough LE12 6PF</h3>
+                    <h3>United Kingdom</h3>
+                    <a class="contact" href="tel:+447843010638">+447843010638</a>
+                    <a class="contact" href="mailto:sales@greeng.com">sales@greeng.com</a>
+                </div>
+                <div>
+                    <iframe id="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39493437.53671434!2d-72.89649119999997!3d52.8315888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879dd71398a15c1%3A0xdeb64d9f9c4942e0!2sThe%20Greengrocer!5e0!3m2!1sen!2sbr!4v1656550263785!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </section>
    
-    <video id="video"></video>
 
-    
+        <section id="more">
+            <h1 class="section_title">More</h1>
+            <hr class="underline">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <p class="paragraph email">Sign up here to receive notifications:</p>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><input type="submit" value="Yes, please!">
+            </form>
+            <p class="paragraph">Follow us on social media:</p>
+            <div id="social">
+                <a class= "text-decoration-none" href = "https://www.instagram.com/greeng"><i class= "bi bi-instagram" id = "insta"></i></a> 
+                <a class= "text-decoration-none" href = "https://www.facebook.com/greeng/"><i class= "bi bi-facebook" id = "facebook"></i></a> 
+                <a class= "text-decoration-none" href = "https://twitter.com/greeng"><i class="bi bi-twitter" id = "twitter"></i></a>
+            </div>
+        </section>
 </main>
 
-<form id="form" action="https://www.freecodecamp.com/email-submit">
-    <input type="email" id="email" name="email" placeholder="Enter your email" required>
-    <input type="submit" id="submit" value=""> 
-</form>
+<footer>
+    <p>Copyright 2022, Original Green G</p>
+    <a href="https://www.flaticon.com/free-icons/fruit" title="fruit icons">Fruit icons created by Freepik - Flaticon</a>
+</footer>
+
 </body>
-<a href="https://www.flaticon.com/free-icons/fruit" title="fruit icons">Fruit icons created by Freepik - Flaticon</a>
+
 </html>

@@ -5,5 +5,5 @@ Greengocer Landing Page: https://renatableao.github.io/Free-Code-Camp-Product-Pa
 
 Techologies:
 
-CSS
-HTML
+* CSS
+* HTML
